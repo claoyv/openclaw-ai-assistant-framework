@@ -190,5 +190,19 @@
       "preview": "camsnap.md\n222.6k\n1\n2\n3\n4\nexport camsnap\nfrom \"openclaw/openclaw\"\nCapture frames or clips from RTSP/"
     },
     "details": "// Capture frames or clips from RTSP/ONVIF cameras."
+  },
+  {
+    "timestamp": "2026-02-25T10:50:31.186Z",
+    "hour": 18,
+    "category": "🎬 视频/图片",
+    "searchQuery": "ai",
+    "skillLearned": {
+      "name": "prompt-lookup",
+      "stars": "147.2k",
+      "link": "https://skillsmp.com/skills/f-prompts-chat-plugins-claude-prompts-chat-skills-prompt-lookup-skill-md",
+      "path": "f-prompts-chat-plugins-claude-prompts-chat-skills-prompt-lookup-skill-md",
+      "preview": "prompt-lookup.md\n147.2k\n1\n2\n3\n4\nexport prompt-lookup\nfrom \"f/prompts.chat\"\nActivates when the user a"
+    },
+    "details": "Skip to main content\nready\n~/\nskillsmp\n$\nai\n--search\n$\ncd\n/categories\n$\nwatch\nstats\n$\nman\ndocs\n$\napi\n--docs\nEN"
   }
 ]
