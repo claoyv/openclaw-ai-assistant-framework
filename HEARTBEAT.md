@@ -29,8 +29,15 @@
 ### run_skill_learning
 **触发**: 每小时整点  
 **执行方式**: 系统 crontab（静默，不通知）  
-**脚本**: `scripts/run-skill-learning.sh` → `learn-skill-v2.js` (修复版)  
-**说明**: 从SkillsMP搜索并学习新技能（修复版，每次可学5个）
+**脚本**: `scripts/run-skill-learning.sh` → `learn-skill-cli.js` (ClawHub CLI版)  
+**说明**: 
+- 使用 ClawHub CLI 直接安装技能
+- 从推荐列表中选择未安装的技能
+- 每小时安装5个新技能
+- 自动跳过已安装的技能
+**技能来源**: ClawHub (https://clawhub.ai)
+**推荐技能**: python, writer, summarize, image, video-frames, github, docker等30+
+**当前进度**: 持续增长中
 
 ### install_next_skill_infinite
 **触发**: 每小时整点

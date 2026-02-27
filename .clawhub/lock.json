@@ -108,6 +108,10 @@
     "image-cog": {
       "version": "1.0.2",
       "installedAt": 1772193370029
+    },
+    "python": {
+      "version": "1.0.0",
+      "installedAt": 1772203759287
     }
   }
 }

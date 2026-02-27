@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
- * 每小时技能学习脚本 - 修复版
- * 从 SkillsMP 网站爬取并学习新技能
+ * 每小时技能学习脚本 - ClawHub版
+ * 从 ClawHub (https://clawhub.ai) 网站爬取并学习新技能
  */
 
 const puppeteer = require('puppeteer-extra');
@@ -14,7 +14,7 @@ puppeteer.use(StealthPlugin());
 
 // 配置
 const CONFIG = {
-  baseUrl: 'https://skillsmp.com',
+  baseUrl: 'https://clawhub.ai',
   skillsPerRun: 5,  // 每次学习几个技能
   maxRetries: 3,
   timeout: 30000,
