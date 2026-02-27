@@ -3,7 +3,7 @@
   "skills": {
     "github": {
       "version": "1.0.0",
-      "installedAt": 1771933185055
+      "installedAt": 1772178956194
     },
     "summarize": {
       "version": "1.0.0",
@@ -20,6 +20,62 @@
     "tavily-search": {
       "version": "1.0.0",
       "installedAt": 1772177151806
+    },
+    "notion": {
+      "version": "1.0.0",
+      "installedAt": 1772178609551
+    },
+    "obsidian": {
+      "version": "1.0.0",
+      "installedAt": 1772178694882
+    },
+    "brave-search": {
+      "version": "1.0.1",
+      "installedAt": 1772178728824
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1772178806819
+    },
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1772178823195
+    },
+    "self-improving-agent": {
+      "version": "1.0.11",
+      "installedAt": 1772178842667
+    },
+    "skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1772178857235
+    },
+    "proactive-agent": {
+      "version": "3.1.0",
+      "installedAt": 1772178926575
+    },
+    "automation-workflows": {
+      "version": "0.1.0",
+      "installedAt": 1772178943627
+    },
+    "gmail": {
+      "version": "1.0.6",
+      "installedAt": 1772178988686
+    },
+    "calendar": {
+      "version": "1.0.0",
+      "installedAt": 1772179002609
+    },
+    "spotify": {
+      "version": "1.0.0",
+      "installedAt": 1772179044841
+    },
+    "home-assistant": {
+      "version": "1.0.0",
+      "installedAt": 1772179062400
+    },
+    "gog": {
+      "version": "1.0.0",
+      "installedAt": 1772179075266
     }
   }
 }
