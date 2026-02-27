@@ -32,25 +32,21 @@
 **脚本**: `scripts/run-skill-learning.sh` → `learn-skill-v2.js` (修复版)  
 **说明**: 从SkillsMP搜索并学习新技能（修复版，每次可学5个）
 
-### install_next_skill_v2
-**触发**: 每小时整点（与技能学习同时进行）  
-**执行方式**: 系统 cron  
+### install_next_skill_infinite
+**触发**: 每小时整点
+**执行方式**: 系统 cron
 **操作**:
 ```bash
-cd ~/.openclaw/workspace && python3 scripts/install-skills-auto-v2.py
+cd ~/.openclaw/workspace && python3 scripts/install-skills-infinite.py
 ```
 **说明**: 
-- 从 ClawHub (https://clawhub.ai) 安装技能
-- 安装后验证技能目录和 SKILL.md 存在
-- 记录安装状态到 `.skill-install-status-v2.json`
-- 安装失败自动跳过，继续下一个
-- 每小时只安装1个，避免冲突
-**技能来源**: https://clawhub.ai/skills?sort=downloads
-**总数**: 22个（持续更新）
-**修复记录**:
-- 2026-02-27: 修复v1版本只记录不安装的问题
-- 2026-02-27: 添加安装后验证机制
-- 2026-02-27: 确保安装到 WORKSPACE/skills/ 目录
+- **无限学习模式** - 从ClawHub持续安装新技能
+- 自动跳过已安装的技能
+- 每小时安装1个新技能
+- 永不停止，持续学习
+**技能来源**: ClawHub (https://clawhub.ai)
+**已安装**: 28个（持续增长）
+**目标**: 无限学习，持续进化
 
 ### fetch_bilibili_account
 **触发**: 每天 09:00
@@ -58,7 +54,7 @@ cd ~/.openclaw/workspace && python3 scripts/install-skills-auto-v2.py
 ```bash
 cd ~/.openclaw/workspace && python3 scripts/bilibili-account-fetch.py
 ```
-**说明**: 获取老鱼B站个人账号数据（粉丝、播放、视频表现）
+**说明**: 获取老板B站个人账号数据（粉丝、播放、视频表现）
 
 ### fetch_ai_intelligence
 **触发**: 每天 09:00
@@ -82,7 +78,7 @@ cd ~/.openclaw/workspace && python3 scripts/generate-daily-report.py
 ```bash
 # WF助手收到系统通知后，读取 daily_report_latest.md 并发送飞书消息
 ```
-**说明**: 读取09:30生成的日报，通过飞书消息发送给老鱼
+**说明**: 读取09:30生成的日报，通过飞书消息发送给老板
 
 ### git_backup
 **触发**: 每30分钟
@@ -97,7 +93,7 @@ cd ~/.openclaw/workspace && python3 scripts/generate-daily-report.py
 2. 回顾上周使用情况
 3. 分析数据（访问次数、功能使用率）
 4. 确定本周优化项
-5. 发送飞书消息提醒老鱼
+5. 发送飞书消息提醒老板
 **说明**: Mission Control每周迭代会议
 **迭代周期**: 每周一 20:00
 **下次迭代**: 2026-03-02 20:00

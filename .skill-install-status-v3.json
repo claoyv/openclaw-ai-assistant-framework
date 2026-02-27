@@ -1,0 +1,30 @@
+{
+  "installed_skills": [
+    "tavily-search",
+    "skill-creator",
+    "proactive-agent",
+    "automation-workflows",
+    "notion",
+    "obsidian",
+    "brave-search",
+    "agent-browser",
+    "find-skills",
+    "self-improving-agent",
+    "skill-vetter",
+    "planning-with-files",
+    "bird-twitter",
+    "x-twitter",
+    "gmail",
+    "calendar",
+    "spotify",
+    "home-assistant",
+    "gog",
+    "github",
+    "remotion",
+    "mcp-skill"
+  ],
+  "total_installed": 22,
+  "last_install_time": "2026-02-27T21:25:42.461431",
+  "current_page": 1,
+  "failed_attempts": 1
+}
