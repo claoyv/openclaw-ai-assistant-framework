@@ -1209,5 +1209,17 @@
       "source": "awesome-openclaw-skills"
     },
     "details": "# garmin-connect\n\n## \u7c7b\u522b\n\u2699\ufe0f \u81ea\u52a8\u5316\n\n## \u63cf\u8ff0\nGarmin Connect integration for Clawdbot: sync fitness data\n\n## \u6765\u6e90\n\u5b98\u65b9\u6280\u80fd\u5e93: https://github.com/VoltAgent/awesome-openclaw-skills\n\n## \u5b89\u88c5\u65b9\u5f0f\n```bash\nnpx clawhub@latest install garmin-connect\n```\n\n\u6216\u8005\u76f4\u63a5\u590d\u5236\u6280\u80fd\u6587\u4ef6\u5939\u5230:\n- Global: `~/.openclaw/skills/`\n- Workspace: `<project>/skills/`\n\n## \u5b98\u65b9\u94fe\u63a5\nhttps://github.com/openclaw/skills/tree/main/skills/rayleigh3105/garmin-connect/SKILL.md\n"
+  },
+  {
+    "timestamp": "2026-02-27T16:00:02.732570",
+    "hour": 16,
+    "category": "\u270d\ufe0f \u5185\u5bb9\u521b\u4f5c",
+    "skillLearned": {
+      "name": "grab",
+      "url": "https://github.com/openclaw/skills/tree/main/skills/jamesalmeida/grab/SKILL.md",
+      "description": "Download and archive content from URLs (tweets, X articles, Reddit, YouTube).",
+      "source": "awesome-openclaw-skills"
+    },
+    "details": "# grab\n\n## \u7c7b\u522b\n\u270d\ufe0f \u5185\u5bb9\u521b\u4f5c\n\n## \u63cf\u8ff0\nDownload and archive content from URLs (tweets, X articles, Reddit, YouTube).\n\n## \u6765\u6e90\n\u5b98\u65b9\u6280\u80fd\u5e93: https://github.com/VoltAgent/awesome-openclaw-skills\n\n## \u5b89\u88c5\u65b9\u5f0f\n```bash\nnpx clawhub@latest install grab\n```\n\n\u6216\u8005\u76f4\u63a5\u590d\u5236\u6280\u80fd\u6587\u4ef6\u5939\u5230:\n- Global: `~/.openclaw/skills/`\n- Workspace: `<project>/skills/`\n\n## \u5b98\u65b9\u94fe\u63a5\nhttps://github.com/openclaw/skills/tree/main/skills/jamesalmeida/grab/SKILL.md\n"
   }
 ]

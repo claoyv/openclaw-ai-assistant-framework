@@ -76,6 +76,14 @@
     "gog": {
       "version": "1.0.0",
       "installedAt": 1772179075266
+    },
+    "skill-creator": {
+      "version": "0.1.0",
+      "installedAt": 1772179216190
+    },
+    "bird-twitter": {
+      "version": "1.0.0",
+      "installedAt": 1772180831376
     }
   }
 }

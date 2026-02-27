@@ -38,23 +38,23 @@
 
 | 时间 | 技能 | 命令 | 状态 |
 |:---:|:---|:---|:---:|
-| 待安排 | tavily-search | `clawhub install tavily-search` | 待安装 |
-| 待安排 | anthroics/skill-creator | `clawhub install skill-creator` | 待安装 |
-| 待安排 | notion | `clawhub install notion` | 待安装 |
-| 待安排 | obsidian | `clawhub install obsidian` | 待安装 |
-| 待安排 | brave-search | `clawhub install brave-search` | 待安装 |
-| 待安排 | agent-browser | `clawhub install agent-browser` | 待安装 |
-| 待安排 | find-skills | `clawhub install find-skills` | 待安装 |
-| 待安排 | self-improving-agent | `clawhub install self-improving-agent` | 待安装 |
-| 待安排 | skill-vetter | `clawhub install skill-vetter` | 待安装 |
-| 待安排 | bird | `clawhub install bird` | 待安装 |
-| 待安排 | 香蕉的自媒体Skill系统 | - | 待安装 |
-| 待安排 | baoyu-skills | - | 待安装 |
-| 待安排 | planning-with-files | - | 待安装 |
-| 待安排 | proactive-agent | - | 待安装 |
-| 待安排 | automation-workflows | - | 待安装 |
-| 待安排 | Rube MCP Connector | - | 待安装 |
-| 待安排 | remotion-best-practices | - | 待安装 |
+| 2026-02-27 16:00 | tavily-search | `clawhub install tavily-search` | ✅ 已安装 |
+| 2026-02-27 16:00 | anthroics/skill-creator | `clawhub install skill-creator` | ✅ 已安装 |
+| 2026-02-27 16:00 | notion | `clawhub install notion` | ✅ 已安装 |
+| 2026-02-27 16:00 | obsidian | `clawhub install obsidian` | ✅ 已安装 |
+| 2026-02-27 16:00 | brave-search | `clawhub install brave-search` | ✅ 已安装 |
+| 2026-02-27 16:00 | agent-browser | `clawhub install agent-browser` | ✅ 已安装 |
+| 2026-02-27 16:00 | find-skills | `clawhub install find-skills` | ✅ 已安装 |
+| 2026-02-27 16:00 | self-improving-agent | `clawhub install self-improving-agent` | ✅ 已安装 |
+| 2026-02-27 16:00 | skill-vetter | `clawhub install skill-vetter` | ✅ 已安装 |
+| 2026-02-27 16:00 | proactive-agent | `clawhub install proactive-agent` | ✅ 已安装 |
+| 2026-02-27 16:00 | automation-workflows | `clawhub install automation-workflows` | ✅ 已安装 |
+| 待安排 | bird | `clawhub install bird` | ⏳ 待安装 |
+| 待安排 | 香蕉的自媒体Skill系统 | - | ⏳ 待安装 |
+| 待安排 | baoyu-skills | - | ⏳ 待安装 |
+| 待安排 | planning-with-files | - | ⏳ 待安装 |
+| 待安排 | Rube MCP Connector | - | ⏳ 待安装 |
+| 待安排 | remotion-best-practices | - | ⏳ 待安装 |
 
 ---
 
@@ -69,5 +69,24 @@
 
 ---
 
-_创建时间: 2026-02-27_
-_更新: 待开始执行_
+## 📊 安装状态总结 (2026-02-27 16:00更新)
+
+### ✅ 已安装 (12个)
+tavily-search, skill-creator, notion, obsidian, brave-search, agent-browser, find-skills, self-improving-agent, skill-vetter, proactive-agent, automation-workflows, github
+
+### ⏳ 待搜索/安装 (6个)
+- bird - 需通过 clawhub 搜索安装
+- 香蕉的自媒体Skill系统 - 可能对应 nano-banana-pro，需确认
+- baoyu-skills - 需通过 GitHub/clawhub 搜索
+- planning-with-files - 需通过 GitHub/clawhub 搜索
+- Rube MCP Connector - 需通过 GitHub/clawhub 搜索
+- remotion-best-practices - 需通过 GitHub/clawhub 搜索
+
+### 📝 说明
+- 12个技能已在工作区中，状态正常
+- 剩余6个需通过 `npx clawhub` 或 GitHub 安装
+- 这些可能是第三方技能，需要单独搜索确认安装方式
+
+---
+
+_更新时间: 2026-02-27 16:00_
