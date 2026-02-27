@@ -65,7 +65,7 @@ function searchClawhubSkills() {
   }
 }
 
-function installSkill(skillName) {
+function installSkill(skillName, retryCount = 0) {
   try {
     log(`📦 安装: ${skillName}`);
     
@@ -78,27 +78,54 @@ function installSkill(skillName) {
     log(`✅ 安装成功: ${skillName}`);
     return { success: true, output: result };
   } catch (e) {
-    if (e.message.includes('already installed') || e.message.includes('已存在')) {
+    const errorMsg = e.message || '';
+    
+    // Rate limit - 重试
+    if (errorMsg.includes('Rate limit') && retryCount < 3) {
+      log(`⏳ Rate limit，等待30秒后重试... (${retryCount + 1}/3)`);
+      execSync('sleep 30');
+      return installSkill(skillName, retryCount + 1);
+    }
+    
+    // 已安装
+    if (errorMsg.includes('already installed') || errorMsg.includes('已存在')) {
       log(`⚠️ 已安装: ${skillName}`);
       return { success: true, alreadyInstalled: true };
     }
-    log(`❌ 安装失败: ${skillName} - ${e.message}`);
-    return { success: false, error: e.message };
+    
+    // 技能不存在
+    if (errorMsg.includes('not found') || errorMsg.includes('Skill not found')) {
+      log(`⚠️ 技能不存在: ${skillName}`);
+      return { success: false, notFound: true };
+    }
+    
+    // 安全标记
+    if (errorMsg.includes('VirusTotal') || errorMsg.includes('suspicious')) {
+      log(`⚠️ 安全标记跳过: ${skillName}`);
+      return { success: false, securityFlag: true };
+    }
+    
+    log(`❌ 安装失败: ${skillName} - ${errorMsg.substring(0, 100)}`);
+    return { success: false, error: errorMsg };
   }
 }
 
-// 推荐技能列表（从ClawHub热门）
+// 推荐技能列表（从ClawHub实际存在的技能）
 const RECOMMENDED_SKILLS = [
-  'python', 'python-patterns', 'python-testing',
-  'writer', 'chinese-writing', 'summarize',
-  'pdf', 'xlsx', 'notion', 'obsidian',
-  'image', 'video-frames', 'video-prompt-engineering',
-  'github', 'docker', 'k8s', 'terraform',
+  'agent-browser', 'automation-workflows', 'bird-twitter',
+  'brave-search', 'calendar', 'find-skills',
+  'github', 'gmail', 'gog', 'home-assistant',
+  'image', 'mcp-skill', 'notion', 'obsidian',
+  'planning-with-files', 'proactive-agent', 'remotion',
+  'self-improving-agent', 'skill-creator', 'skill-vetter',
+  'spotify', 'tavily-search', 'twitter-post',
+  'video-prompt-engineering', 'x-twitter',
+  // 开发相关
+  'docker', 'k8s', 'terraform', 'aws',
+  // 数据处理
   'polars', 'eda', 'model-usage',
-  'twitter-post', 'bird-twitter', 'x-twitter',
-  'brave-search', 'tavily-search',
-  'gmail', 'calendar', 'spotify',
-  'skill-creator', 'proactive-agent', 'automation-workflows'
+  // 内容创作
+  'tweet-writer', 'chinese-writing', 'summarize'
 ];
 
 async function main() {

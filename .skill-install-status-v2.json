@@ -1,0 +1,117 @@
+{
+  "current_index": 22,
+  "installed": [
+    {
+      "name": "tavily-search",
+      "time": "2026-02-28T00:03:37.659941",
+      "note": "\u5df2\u5b58\u5728"
+    },
+    {
+      "name": "skill-creator",
+      "time": "2026-02-28T00:03:37.660004",
+      "note": "\u5df2\u5b58\u5728"
+    },
+    {
+      "name": "proactive-agent",
+      "time": "2026-02-28T00:03:37.660038",
+      "note": "\u5df2\u5b58\u5728"
+    },
+    {
+      "name": "automation-workflows",
+      "time": "2026-02-28T00:03:37.660068",
+      "note": "\u5df2\u5b58\u5728"
+    },
+    {
+      "name": "notion",
+      "time": "2026-02-28T00:03:37.660100",
+      "note": "\u5df2\u5b58\u5728"
+    },
+    {
+      "name": "obsidian",
+      "time": "2026-02-28T00:03:37.660128",
+      "note": "\u5df2\u5b58\u5728"
+    },
+    {
+      "name": "brave-search",
+      "time": "2026-02-28T00:03:37.660154",
+      "note": "\u5df2\u5b58\u5728"
+    },
+    {
+      "name": "agent-browser",
+      "time": "2026-02-28T00:03:37.660180",
+      "note": "\u5df2\u5b58\u5728"
+    },
+    {
+      "name": "find-skills",
+      "time": "2026-02-28T00:03:37.660207",
+      "note": "\u5df2\u5b58\u5728"
+    },
+    {
+      "name": "self-improving-agent",
+      "time": "2026-02-28T00:03:37.660235",
+      "note": "\u5df2\u5b58\u5728"
+    },
+    {
+      "name": "skill-vetter",
+      "time": "2026-02-28T00:03:37.660261",
+      "note": "\u5df2\u5b58\u5728"
+    },
+    {
+      "name": "planning-with-files",
+      "time": "2026-02-28T00:03:37.660287",
+      "note": "\u5df2\u5b58\u5728"
+    },
+    {
+      "name": "bird-twitter",
+      "time": "2026-02-28T00:03:37.660312",
+      "note": "\u5df2\u5b58\u5728"
+    },
+    {
+      "name": "x-twitter",
+      "time": "2026-02-28T00:03:37.660338",
+      "note": "\u5df2\u5b58\u5728"
+    },
+    {
+      "name": "gmail",
+      "time": "2026-02-28T00:03:37.660364",
+      "note": "\u5df2\u5b58\u5728"
+    },
+    {
+      "name": "calendar",
+      "time": "2026-02-28T00:03:37.660389",
+      "note": "\u5df2\u5b58\u5728"
+    },
+    {
+      "name": "spotify",
+      "time": "2026-02-28T00:03:37.660414",
+      "note": "\u5df2\u5b58\u5728"
+    },
+    {
+      "name": "home-assistant",
+      "time": "2026-02-28T00:03:37.660446",
+      "note": "\u5df2\u5b58\u5728"
+    },
+    {
+      "name": "gog",
+      "time": "2026-02-28T00:03:37.660473",
+      "note": "\u5df2\u5b58\u5728"
+    },
+    {
+      "name": "github",
+      "time": "2026-02-28T00:03:37.660499",
+      "note": "\u5df2\u5b58\u5728"
+    },
+    {
+      "name": "remotion",
+      "time": "2026-02-28T00:03:37.660525",
+      "note": "\u5df2\u5b58\u5728"
+    },
+    {
+      "name": "mcp-skill",
+      "time": "2026-02-28T00:03:37.660555",
+      "note": "\u5df2\u5b58\u5728"
+    }
+  ],
+  "failed": [],
+  "total_attempts": 1
+}
