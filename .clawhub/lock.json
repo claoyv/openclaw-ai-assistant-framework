@@ -32,6 +32,18 @@
     "agent-team-orchestration": {
       "version": "1.0.0",
       "installedAt": 1772226216675
+    },
+    "video-frames": {
+      "version": "1.0.0",
+      "installedAt": 1772229679210
+    },
+    "remotion-video-toolkit": {
+      "version": "1.4.0",
+      "installedAt": 1772229691254
+    },
+    "demo-video": {
+      "version": "1.0.0",
+      "installedAt": 1772229700677
     }
   }
 }

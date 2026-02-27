@@ -11,7 +11,10 @@
     "pls-copy-editing",
     "agent-directory",
     "agent-autonomy-kit",
-    "agent-team-orchestration"
+    "agent-team-orchestration",
+    "video-frames",
+    "remotion-video-toolkit",
+    "demo-video"
   ],
   "keywordIndex": 3
 }
