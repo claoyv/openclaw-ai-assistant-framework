@@ -24,6 +24,14 @@
     "pls-copy-editing": {
       "version": "1.0.0",
       "installedAt": 1772223034375
+    },
+    "agent-directory": {
+      "version": "1.2.0",
+      "installedAt": 1772226102100
+    },
+    "agent-team-orchestration": {
+      "version": "1.0.0",
+      "installedAt": 1772226216675
     }
   }
 }

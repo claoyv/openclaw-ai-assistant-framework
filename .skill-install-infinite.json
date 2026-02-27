@@ -8,7 +8,10 @@
     "ai-ppt-generate",
     "donson-intelligent-editing",
     "insaiai-intelligent-editing",
-    "pls-copy-editing"
+    "pls-copy-editing",
+    "agent-directory",
+    "agent-autonomy-kit",
+    "agent-team-orchestration"
   ],
   "keywordIndex": 3
 }
