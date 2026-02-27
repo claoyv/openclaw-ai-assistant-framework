@@ -9,6 +9,23 @@
 
 当收到以下系统事件时，执行对应操作：
 
+### send_daily_report  
+**触发**: 每天 09:35 (系统通知)  
+**操作**:  
+1. 读取 `data/daily-reports/daily_report_latest.md`  
+2. 提取关键数据（粉丝、播放、热门视频、技能学习）  
+3. 生成简化版消息，通过飞书发送  
+**说明**: 自动发送每日汇报（09:30生成后，09:35推送）  
+**消息格式示例**:
+```
+📊 每日汇报 - 2026-02-27
+
+👤 B站账号: 粉丝XX万 | 播放XX万
+🔥 热门: XXXXX (XXX万播放)
+📚 技能: 今日学了X个
+📡 AI情报: XXX关键词热度上升
+```
+
 ### run_skill_learning
 **触发**: 每小时整点  
 **执行方式**: 系统 crontab（静默，不通知）  
@@ -38,6 +55,14 @@ cd ~/.openclaw/workspace && python3 scripts/ai-intelligence-monitor.py
 cd ~/.openclaw/workspace && python3 scripts/generate-daily-report.py
 ```
 **说明**: 生成统一每日汇报（包含账号数据、AI情报、技能学习）
+
+### send_daily_report
+**触发**: 每天 09:35
+**操作**:
+```bash
+# WF助手收到系统通知后，读取 daily_report_latest.md 并发送飞书消息
+```
+**说明**: 读取09:30生成的日报，通过飞书消息发送给老鱼
 
 ### git_backup
 **触发**: 每30分钟
