@@ -29,9 +29,6 @@ backups/
 # 技能文件
 skills/
 
-# 配置文件
-config/bilibili_cookies.json
-
 # 临时文件
 *.tmp
 *.temp
@@ -43,10 +40,6 @@ config/bilibili_cookies.json
 .openclaw/
 .clayhub/
 .skill-install-*.json
-
-# 脚本（保留核心脚本）
-scripts/git-auto-backup.sh
-scripts/cleanup-*.sh
 
 # 其他
 .env
