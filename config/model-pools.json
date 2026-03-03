@@ -4,32 +4,32 @@
     "fast": {
       "name": "高速池",
       "description": "简单日常会话、要求响应快、token便宜",
-      "primary": "zai/glm-4.7",
-      "fallback": "zai/glm-4.7",
+      "primary": "gpt-oss:20b",
+      "fallback": "gpt-oss:20b",
       "use_cases": ["闲聊", "简单查询", "快速响应"],
       "keywords": ["快速", "简单", "闲聊"]
     },
     "smart": {
       "name": "智能池",
       "description": "大型复杂任务、高强度推理、要求模型能力强",
-      "primary": "zai/glm-5",
-      "fallback": "zai/glm-5",
+      "primary": "gpt-oss:20b",
+      "fallback": "gpt-oss:20b",
       "use_cases": ["复杂推理", "代码编写", "策略制定", "深度分析"],
       "keywords": ["推理", "分析", "编程", "复杂"]
     },
     "text": {
       "name": "文本池",
       "description": "处理文本相关任务、推理能力+上下文处理",
-      "primary": "zai/glm-5",
-      "fallback": "zai/glm-4.7",
+      "primary": "gpt-oss:20b",
+      "fallback": "gpt-oss:20b",
       "use_cases": ["长文本处理", "文档分析", "内容创作"],
       "keywords": ["文档", "长文本", "内容", "写作"]
     },
     "vision": {
       "name": "视觉池",
       "description": "图片、视频、多模态任务",
-      "primary": "zai/glm-4.6v",
-      "fallback": "zai/glm-4.6v",
+      "primary": "gpt-oss:20b",
+      "fallback": "gpt-oss:20b",
       "use_cases": ["图片分析", "视频理解", "多模态任务"],
       "keywords": ["图片", "视频", "视觉", "看图", "多模态"]
     }
